@@ -1,0 +1,980 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap');
+
+
+body{
+  font-family: 'Grenze Gotisch', cursive !important;
+}
+
+
+
+  /* navbar */
+
+  .menuBar{
+    background-image: linear-gradient(to right, white,white);
+     box-shadow: 2px 2px 4px indigo;  
+  }
+
+  .logoCover{
+    width:100px;
+    height:100px;
+    background-color: #19002d;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px 0px ;
+}
+  .logo1{
+    width:250px;
+    height:200px;
+  }
+
+
+  .menubarHover a{
+    color :#19002d;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.5s;
+    position: relative;
+    display:block;
+
+  }
+
+
+  .menubarHover a:hover{
+    text-decoration: none ;
+    color:white;
+    background-color: #19002d;;
+    padding:0px 10px;
+  }
+
+ .menubarHover a:before{
+    content: "";
+    position: absolute;
+    bottom: 12px;
+    left:12px;
+    width:12px;
+    height:12px;
+    border: 3px solid black;
+    border-width: 0 0 3px 3px;
+transition: all 0.5s;
+opacity: 0;
+
+  }
+  .menubarHover a:hover:before{
+    opacity: 1;
+    bottom: -8px;
+    left:-8px;
+  }
+
+  .menubarHover a:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right:0;
+    width:12px;
+    height:12px;
+    border: 3px solid black;
+    border-width: 3px 3px 0 0;
+      transition: all 0.5s;
+    opacity:0;
+
+  }
+
+  .menubarHover a:hover:after{
+    opacity: 1;
+    top: -8px;
+    right:-8px;
+  }
+
+  .navbar-dark .navbar-toggler{
+    background-color: black;
+  }
+
+
+
+
+ /* HOME */
+
+
+ .homePage{
+  background-image: url("../src/images/bg.jpg");
+height: 900px;
+  /* clip-path: polygon(0 0,100% 0, 100% 20%, 100% 60%, 0 100%, 0 100%,0% 80%, 0% 20%); */
+
+ 
+ 
+  
+
+}
+.homePageBox{
+  width:100%;
+  margin:0px auto;
+  padding-top:150px;
+  margin-left:30px;
+  position: relative;
+}
+@keyframes example2 {
+  from  {opacity:0; transform: translateX(1000px);}
+  to  {opacity:1; transform: translateX(0px); } 
+}
+
+.homePageButton{
+  position: absolute;
+  left:0;
+  margin-top: 100px;;
+  width:200px;
+  height: 100px;
+  border:1px solid indigo;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 20px;
+  animation: example2 1s linear 1 normal;
+}
+.homeHeader2 a{
+  color:black;
+  text-decoration: none;
+}
+.homePageButton:hover{
+  background-color: indigo;
+  transform: scale(1.15);
+}
+.homeHeader2 a:hover{
+  color:white;
+  text-decoration: none;
+}
+
+  .homeHeader1{
+    position: absolute;
+    top: 970px;
+    transform: translateY(-90%);
+    font-weight: 700;
+    color: #19002d;
+    font-style: italic;
+    text-align: center;
+}
+
+  .homeHeader{
+    font-size: 64px;
+    font-family: Piedra;
+    color: rgb(255, 254, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-shadow: 0px 25px 27.26px rgba(25, 0, 45, 0.23);
+    text-align: center;
+    animation: example 1s linear 1 normal;
+  }
+
+  @keyframes example {
+    from  {opacity:0; transform: translateY(100px);}
+    to  {opacity:1; transform: translateY(0px); } 
+  }
+
+  .homeHeader2{
+  left:30%;
+    position: absolute;
+    margin-top: 50px;
+    font-size: 30px;
+    animation: example2 1s linear 1 normal;
+   }
+  .coverImage{
+    background-image: url('../src/images/slider-img.png');
+   
+    width:100%;
+  }  
+
+.image1Box{
+  margin:0px;
+  float: left;
+  width:400px;
+  animation: example 1s linear 1 normal;
+}
+  
+  .image1{
+    width:100%;
+    
+  }
+ 
+  
+  /* SLIDE */
+  .slides{
+  
+  }
+  .image2{
+   height:500px;
+  }
+  .slideCaption{
+    background-color: black;
+    opacity:0.8;
+    padding: 50px !important;
+    color:white;
+    height:250px;
+  }
+  .slideCaption h3{
+    font-weight: 700;
+    color:white;
+  }
+  .slidesButton{
+        padding:20px;
+        border:none;
+        background: indigo;
+        border-radius: 10px 10px 0px 0px ;
+        filter: drop-shadow(1px 1px 4px indigo);
+  }
+  .slidesButton:hover{
+    background: transparent;
+    transform: scale(1.1);
+   border:1px solid indigo;
+   color:white;
+   text-shadow: 1px 1px 4px black !important;
+  }
+  .slidesButton a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+  }
+  .slidesButton a:hover{
+    text-decoration: none;
+    color:white;
+
+    
+}
+ 
+
+
+  
+
+    /* COLLECTION */
+    .collectionBox{
+      margin-right: 0px !important;
+      margin-left: 0px !important;
+    }
+    .heading1{
+      height:200px;
+      box-shadow: 1px 1px 4px grey;
+      position:relative;
+     
+      background-image: radial-gradient(indigo 10%, transparent 0),
+      radial-gradient(indigo 10%, transparent 0);
+    background-size: 15px 15px;
+    /* background-position: 0 0, 22.5px 22.5px; */
+   
+    }
+    .heading1 h1{
+      background: linear-gradient(to bottom, indigo,hotpink);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      /* position:absolute;
+      top:20%;
+      left:50%;
+      transform: translate(-50%, -20%); */
+      text-align: center;
+       background-size: cover;
+       font-family: Piedra;
+       font-size: 64px;
+       padding-top:20px;
+       
+     }
+     .heading2{
+       background-color: white;
+       filter: drop-shadow(2px 2px 4px grey);
+       margin:10px 0px;
+       padding:10px;
+       text-align: center;
+     }
+
+   
+
+  .productImage{
+    width:100%;
+    height:200px;
+    
+  }
+  .productImage:hover{
+    transform:scale(0.9);
+   box-shadow:2px 2px 6px grey;
+  } 
+  .categories{
+    background-image: url("../src/images/bg.jpg");
+    background-size: cover;
+    padding:10px;
+  }
+  .productBox{
+    margin:20px ;
+    padding:10px;
+    
+  }
+  .productText{
+    padding:10px;
+    margin:0px auto;    
+  }
+  .productHeading{
+    color:indigo;
+    font-weight: 600;
+  }
+  .productText h6{
+    color:black;
+    font-weight: 600;
+    font-style: italic;
+  }
+  .productText button{
+    padding:10px;
+    border:none;
+    background: indigo;
+    border-radius: 5px ;
+    filter: drop-shadow(1px 1px 2px grey);
+    color:white;
+  }
+
+.productText button:hover{
+transform: scale(0.8);
+background:transparent;
+border:1px solid indigo;
+filter: drop-shadow(1px 1px 4px white);
+color:black;
+}
+
+  .collectionCategory{
+    color:black;
+
+  }
+  .collectionCategory a{
+    color:black;
+    text-decoration: none;
+
+  }
+  .collectionCategory a:hover{
+    color:black;
+    text-decoration: none;
+    
+  }
+  .categories h4{
+    color:indigo;
+    text-shadow:2px 2px 4px grey;
+    text-align: center;
+    
+  }
+
+  .cart{
+    /* padding:5px */
+  }
+  .cart div{
+    padding:5px;
+  }
+  .cartImage{
+    /* width:200px; */
+    /* height:100px; */
+    transform:scale(0.9);
+   box-shadow:2px 2px 6px grey;
+  }
+.collectionBrands{
+  font-family: 'Grenze Gotisch', cursive !important;
+}
+
+
+
+
+
+
+  /* page transistion */
+  .page{
+    position:absolute;
+    left:0;
+    right:0;
+  }
+  .fade-appear .fade-enter{
+    opacity: 0;
+    z-index:1;
+
+  }
+  .fade-appear-active
+  .fade-enter .fade-enter-active{
+    opacity:0;
+    transition:opacity 150ms linear 150ms;
+  }
+
+  .fade-exit{
+    opacity:1;
+  }
+  .fade-exit .fade-exit-active{
+    opacity:0;
+    transition: opacity 150ms linear;
+  }
+  
+
+  /* Footer */
+  .footer{
+    position:relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 5;
+  width: 100%;
+  color:white;
+  
+  }
+  .footer1{
+    background-color: #f5f7f9;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+  align-items: center;
+  }
+  .image3{
+    margin:10px 5px;
+  }
+  .footer2{
+    background-color: #252525;
+    height:50vh;
+    text-align: center;
+
+  }
+  .footerBody{
+      text-align: center;
+  
+  }
+  .footerLogo{
+ float:left;
+    
+  }
+  .footerLogoImage{
+    width:100px;
+    height: 150px;
+  }
+ 
+  .footerIconColor{
+    color:red;
+
+  }
+  .footerIconColor1{
+    color:rebeccapurple;
+
+  }
+  .icon-cover{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+  }
+  .icon{
+   
+    border:1px solid black;
+    margin: 20px;
+    border-radius: 30%;
+    color: rebeccapurple;
+    box-shadow: 0 5px 15px -5px #00000070;
+    position: relative;
+    overflow: hidden;
+    font-size: 50px !important;
+    
+  }
+
+  .icon:hover {
+    transform: scale(1.1);
+    color: white;
+    
+  }
+ .footerText1{
+   margin:0px 40px;
+   border-top: 1px solid rebeccapurple;
+ }
+ .footerText3{
+   padding-top:20px;
+   font-style: italic;
+   font-weight: 700;
+  
+ }
+ .footerText3 ul{
+  list-style: none;
+ }
+ .add{
+   margin-bottom: 80px;
+ }
+
+/* MODAL */
+.modal1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index:100;
+}
+
+.modal-main {
+  position:fixed;
+  background-image: linear-gradient(to bottom, white,white);
+  width: 80%;
+  height: 100%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding:5px;
+  overflow:auto ;
+}
+.modal-main h4{
+   padding:10px;
+  
+}
+.modal1 button:nth-child(1){
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 0;
+  cursor: pointer;
+  z-index: 99;
+  position: absolute;
+  top: -15px;
+  right: -45px;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+.modal1 button:nth-child(2){
+  float:left;
+}
+.floatRight{
+  float:right;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+.numberBox{
+  background-color:indigo ;
+  color:white;
+  font-weight: bold;
+  border-radius: 50px;
+  width:20%;
+}
+
+
+/* contact us */
+
+.contactBackground{
+  background-image: url("../src/images/bg.jpg");
+  height: 900px;
+  width:100%;
+  position:relative;
+}
+.contactForm{
+  width:80%;
+  height: 500px;
+  margin:30px auto;
+  background-color: white;
+  padding: 30px;
+  animation: example2 1s linear 1 normal;
+}
+.textArea{
+  height:150px !important;
+}
+.inputEmail{
+  background-color: #ebebeb !important;
+  border: none !important;
+  border-radius: 0px !important;
+  font-weight: bold;
+}
+ .textArea{
+  background-color: #ebebeb !important;
+  border: none !important;
+  border-radius: 0px !important;
+  font-weight: bold;
+}
+.inputName{
+  background-color: #ebebeb !important;
+  border: none !important;
+  border-radius: 0px !important;
+  font-weight: bold;
+}
+.contactButton{
+  background-color: indigo;
+  padding: 10px 20px;
+  border: none;
+  color:white;
+}
+.contactButton:hover{
+  background-color: transparent;
+  border:1px solid indigo;
+  color:black;
+}
+.none{
+  display:none;
+}
+
+
+
+@media only screen and (min-width:400px) and (max-width:900px){
+
+
+  /* HOME */
+  .image1Box{
+    margin:70px auto;
+    width:70%;
+    display:none;
+  }
+  .homeHeader{
+    font-size: 30px;
+    font-family: Piedra;
+  }
+  .homePageButton{
+    position: absolute;
+    left:0;
+    margin-top: 80px;;
+    width:150px;
+    height: 80px;
+    border:1px solid indigo;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    
+  }
+    .homeHeader1{
+     font-size: 15px;
+     text-align: center;
+  }
+  
+    .homeHeader2{
+    left:0%;
+      position: absolute;
+      margin-top: 50px;
+      font-size: 20px;
+    }
+   
+
+  /* SLIDES */
+  .slideCaption{
+    background-color: black;
+    opacity:0.8;
+    padding: 50px !important;
+    color:white;
+    height:250px;
+  }
+  .slideCaption h3{
+    font-weight: 700;
+    color:white;
+  }
+  .slidesButton{
+        padding:20px;
+        border:none;
+        background: indigo;
+        border-radius: 10px 10px 0px 0px ;
+        filter: drop-shadow(1px 1px 4px indigo);
+  }
+  .slidesButton:hover{
+    transform: scale(1.1);
+  
+  }
+
+  /* COLLECTION */
+  .heading1 h1{
+    background: linear-gradient(to bottom, indigo,hotpink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    text-align: center;
+    
+   
+     background-size: cover;
+     font-family: Piedra;
+     font-size: 40px;
+     
+   }
+   .heading1{
+    height:200px;
+    box-shadow: 1px 1px 4px grey;
+    position:relative;
+   
+    background-image: radial-gradient(indigo 10%, transparent 0),
+    radial-gradient(indigo 10%, transparent 0);
+  background-size: 15px 15px;
+  /* background-position: 0 0, 22.5px 22.5px; */
+ 
+  }
+    
+
+  /* Footer */
+  .footer{
+    position:relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 5;
+  width: 100%;
+  color:white;
+  
+  }
+  .footer1{
+    background-color: #f5f7f9;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+  align-items: center;
+  }
+  .image3{
+    margin:10px 5px;
+  }
+  .footer2{
+    background-color: #252525;
+    height:70vh;
+    text-align: center;
+
+  }
+  .footerBody{
+      text-align: center;
+  
+  }
+  .footerLogo{
+ float:left;
+    
+  }
+  .footerLogoImage{
+    width:100px;
+    height: 150px;
+  }
+ 
+  .footerIconColor{
+    color:red;
+
+  }
+  .icon-cover{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+  }
+  .icon{
+   
+  
+    margin: 20px;
+    border-radius: 30%;
+    color: rebeccapurple;
+    box-shadow: 0 5px 15px -5px #00000070;
+    position: relative;
+    overflow: hidden;
+    font-size: 50px !important;
+    
+  }
+
+  .icon:hover {
+    transform: scale(1.1);
+    color: white;
+   
+  }
+ .footerText1{
+   margin:0px 40px;
+   border-top: 1px solid rebeccapurple;
+ }
+ .footerText3{
+   padding-top:20px;
+   font-style: italic;
+   font-weight: 600;
+  
+ }
+ .footerText3 ul{
+  list-style: none;
+ }
+ .add{
+   margin-bottom: 80px;
+ }
+}
+
+
+
+
+
+
+@media only screen and (min-width:100px) and (max-width:500px){
+   /* HOME */
+   .image1Box{
+    margin:80px auto;
+    width:100%;
+    display:none;
+  }
+  .homeHeader{
+    font-size: 20px;
+    font-family: Piedra;
+  
+  }
+
+.homePageBox{
+  width:100%;
+  margin:0px auto;
+  padding-top:50px;
+  margin-left:10px;
+  position: relative;
+}
+.homePageButton{
+  position: absolute;
+  left:0;
+  margin-top: 80px;;
+  width:150px;
+  height: 80px;
+  border:1px solid indigo;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 20px;
+  
+}
+
+
+  .homeHeader1{
+   font-size: 15px;
+}
+
+  .homeHeader2{
+  left:0%;
+    position: absolute;
+    margin-top: 50px;
+    font-size: 15px;
+  }
+ 
+
+
+
+
+    /* SLIDES */
+    .slideCaption{
+      background-color: black;
+      opacity:0.8;
+      padding:10px !important;
+  
+      color:white;
+      height:300px;
+    }
+
+    .slidesButton{
+          padding:20px;
+          border:none;
+          background: indigo;
+          border-radius: 10px 10px 0px 0px ;
+          filter: drop-shadow(1px 1px 4px indigo);
+    }
+    .slidesButton:hover{
+      transform: scale(1);
+    }
+  
+    
+   /* COLLECTION */
+   .heading1 h1{
+    background: linear-gradient(to bottom, indigo,hotpink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     text-align: center;
+    
+   
+     background-size: cover;
+     font-family: Piedra;
+     font-size: 30px;
+     
+   }
+   .heading1{
+    height:150px;
+    box-shadow: 1px 1px 10px grey;
+    position:relative;
+   
+   
+  }
+
+
+
+
+  /* Footer */
+  .footer{
+    position:relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 5;
+  width: 100%;
+  color:white;
+  
+  }
+  .footer1{
+    background-color: #f5f7f9;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+  align-items: center;
+  }
+  .image3{
+    margin:10px 5px;
+  }
+  .footer2{
+    background-color: #252525;
+    height:70vh;
+    text-align: center;
+
+  }
+  .footerBody{
+      text-align: center;
+  
+  }
+  .footerLogo{
+ float:left;
+    
+  }
+  .footerLogoImage{
+    width:100px;
+    height: 150px;
+  }
+ 
+  .footerIconColor{
+    color:red;
+
+  }
+  .icon-cover{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+  }
+  .icon{
+   
+ 
+    margin: 20px;
+    border-radius: 30%;
+    color: rebeccapurple;
+    box-shadow: 0 5px 15px -5px #00000070;
+    position: relative;
+    overflow: hidden;
+    font-size: 30px !important;
+    
+  }
+
+  .icon:hover {
+    transform: scale(1.1);
+    color: white;
+  
+  }
+ .footerText1{
+   margin:0px 50px;
+   border-top: 1px solid rebeccapurple;
+   font-size: 10px;
+ }
+ .footerText3{
+   padding-top:20px;
+   font-style: italic;
+   font-weight: 500;
+   font-size: 12px;
+  
+ }
+
+ .add{
+   margin-bottom: 20px;
+ }
+ 
+ 
+}
