@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Abiola-Farounbi/KarlFashion/static/css/main.60ca992a.chunk.css",
+    "main.js": "/Abiola-Farounbi/KarlFashion/static/js/main.a48dc363.chunk.js",
+    "main.js.map": "/Abiola-Farounbi/KarlFashion/static/js/main.a48dc363.chunk.js.map",
+    "runtime-main.js": "/Abiola-Farounbi/KarlFashion/static/js/runtime-main.e7ee046e.js",
+    "runtime-main.js.map": "/Abiola-Farounbi/KarlFashion/static/js/runtime-main.e7ee046e.js.map",
+    "static/css/2.1ce3413f.chunk.css": "/Abiola-Farounbi/KarlFashion/static/css/2.1ce3413f.chunk.css",
+    "static/js/2.f388b7e0.chunk.js": "/Abiola-Farounbi/KarlFashion/static/js/2.f388b7e0.chunk.js",
+    "static/js/2.f388b7e0.chunk.js.map": "/Abiola-Farounbi/KarlFashion/static/js/2.f388b7e0.chunk.js.map",
+    "index.html": "/Abiola-Farounbi/KarlFashion/index.html",
+    "precache-manifest.8bbeb8b804fcfa99ff4d0b9aa060ba3a.js": "/Abiola-Farounbi/KarlFashion/precache-manifest.8bbeb8b804fcfa99ff4d0b9aa060ba3a.js",
+    "service-worker.js": "/Abiola-Farounbi/KarlFashion/service-worker.js",
+    "static/css/2.1ce3413f.chunk.css.map": "/Abiola-Farounbi/KarlFashion/static/css/2.1ce3413f.chunk.css.map",
+    "static/css/main.60ca992a.chunk.css.map": "/Abiola-Farounbi/KarlFashion/static/css/main.60ca992a.chunk.css.map",
+    "static/js/2.f388b7e0.chunk.js.LICENSE.txt": "/Abiola-Farounbi/KarlFashion/static/js/2.f388b7e0.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Abiola-Farounbi/KarlFashion/static/media/bg.ca3cc290.jpg",
+    "static/media/logo1.png": "/Abiola-Farounbi/KarlFashion/static/media/logo1.f4b64d68.png",
+    "static/media/slider-img.png": "/Abiola-Farounbi/KarlFashion/static/media/slider-img.99a6cd8d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7ee046e.js",
+    "static/css/2.1ce3413f.chunk.css",
+    "static/js/2.f388b7e0.chunk.js",
+    "static/css/main.60ca992a.chunk.css",
+    "static/js/main.a48dc363.chunk.js"
+  ]
+}
