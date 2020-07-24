@@ -28,7 +28,7 @@ function Contact(){
   </Form.Group>
   <div className='text-center'>
     <button className='contactButton'>
-      Send Message
+        <a href="mailto:farounbiabiola@gmail.com">Send  Message</a>
     </button>
   </div>
 </Form>
